@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Manni Si</title>
+    <link>https://mannids.github.io/manni_portfolio/</link>
+    <description>Recent content in Data Science Portfolio on Manni Si</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2020 11:00:59 -0400</lastBuildDate>
+    
+	<atom:link href="https://mannids.github.io/manni_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project 1: Rap Artist Face Recognition</title>
+      <link>https://mannids.github.io/manni_portfolio/post/project-2/</link>
+      <pubDate>Thu, 23 Jul 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://mannids.github.io/manni_portfolio/post/project-2/</guid>
+      <description>Scraped rap artists images from Google using the FatKun chrome extension. Used OpenCV and Harr Cascades technique to clean images and keep the ones with clearly visible face and two eyes. Engineered features from cropped images and applied wavelet transform to extract meaningful features that can help with image identification. Optimized SVM, Random Forest, Logistic Regressors using GridsearchCV to reach the best model. Built a client facing API using flask and deployed the model to production.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: King County Home Price Prediction</title>
+      <link>https://mannids.github.io/manni_portfolio/post/project-1/</link>
+      <pubDate>Thu, 18 Jun 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://mannids.github.io/manni_portfolio/post/project-1/</guid>
+      <description>Created a tool that predicts house prices in King County Washington based on the ZIP Code for the location of certain residential houses. Applied feature engineering to explore the area feature of houses and add new features for later outlier detection and removal. Optimized Linear, Lasso, and Decision Tree Regressors using GridsearchCV to reach the best model. Used K Fold cross validation to measure the accuracy of my model. Built a client facing API using flask and deployed the model to production.</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Dog Breed Image Classifier</title>
+      <link>https://mannids.github.io/manni_portfolio/post/project-3/</link>
+      <pubDate>Sat, 09 May 2020 11:13:32 -0400</pubDate>
+      
+      <guid>https://mannids.github.io/manni_portfolio/post/project-3/</guid>
+      <description>For this project I built a dog breed classifier to identify dogs from different breeds. This could be useful for someone who is interested in learning more about dog breeds. They could take a picture of a dog and an app could serve them some information about the history and characteristics of a certain dog breed. This is the underlying model for building something with those capabilities.
+I was able to get the model to predict the breed of the dog with 92% accuracy after minimal tuning.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://mannids.github.io/manni_portfolio/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mannids.github.io/manni_portfolio/contact/</guid>
+      <description>Link to my resume
+Feel free to follow me on these social media platforms:
+   Platform URL     LinkedIn: https://www.linkedin.com/in/simanni/   GitHub: https://github.com/ManniDS    </description>
+    </item>
+    
+  </channel>
+</rss>
